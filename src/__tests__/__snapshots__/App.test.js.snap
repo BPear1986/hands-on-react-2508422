@@ -1,0 +1,78 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`App snapshot test 1`] = `
+[
+  <div
+    className="navContainer"
+  >
+    <nav
+      className="container"
+    >
+      <ul>
+        <li>
+          <a
+            href="#"
+          >
+            <img
+              alt="Stargazers logo"
+              src="images/logo_bug_stargazers.svg"
+              style={
+                {
+                  "height": "80px",
+                }
+              }
+            />
+          </a>
+        </li>
+      </ul>
+      <ul>
+        <li>
+          <details
+            role="list"
+          >
+            <summary
+              aria-haspopup="listbox"
+              role="link"
+            >
+              cast
+            </summary>
+            <ul
+              role="listbox"
+            />
+          </details>
+        </li>
+      </ul>
+    </nav>
+  </div>,
+  <div
+    className="container"
+  >
+    <img
+      alt="StarGazers Group"
+      src="images/group.svg"
+    />
+    <hgroup>
+      <h1>
+        Meet the StarGazers
+      </h1>
+      <p>
+        Members of an 
+        <b>
+          intergalactic alliance
+        </b>
+         paving the way for peace and benevolence among all species. They are known for their enthusiasm for science, for their love of fun, and their dedication to education.
+      </p>
+    </hgroup>
+    <div
+      style={
+        {
+          "display": "grid",
+          "gap": "1rem",
+          "gridTemplateColumns": "repeat(auto-fit, minmax(90px, 1fr))",
+          "marginBottom": "1rem",
+        }
+      }
+    />
+  </div>,
+]
+`;
