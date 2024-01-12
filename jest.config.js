@@ -4,4 +4,8 @@ module.exports = {
       '<rootDir>/__mocks__/fileMock.js',
     '\\.(css|less)$': '<rootDir>/CSSStub.js'
   },
+  automock: false,
+  setupFiles: [
+    "src/setupJest.js"
+  ],
 };
