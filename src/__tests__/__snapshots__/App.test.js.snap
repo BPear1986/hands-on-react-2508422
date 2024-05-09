@@ -47,11 +47,11 @@ exports[`App snapshot test 1`] = `
   <div
     className="container"
   >
-    <img
-      alt="StarGazers Group"
-      src="images/group.svg"
-    />
     <hgroup>
+      <img
+        alt="StarGazers Group"
+        src="images/group.svg"
+      />
       <h1>
         Meet the StarGazers
       </h1>
@@ -62,17 +62,17 @@ exports[`App snapshot test 1`] = `
         </b>
          paving the way for peace and benevolence among all species. They are known for their enthusiasm for science, for their love of fun, and their dedication to education.
       </p>
-    </hgroup>
-    <div
-      style={
-        {
-          "display": "grid",
-          "gap": "1rem",
-          "gridTemplateColumns": "repeat(auto-fit, minmax(90px, 1fr))",
-          "marginBottom": "1rem",
+      <div
+        style={
+          {
+            "display": "grid",
+            "gap": "1rem",
+            "gridTemplateColumns": "repeat(auto-fit, minmax(90px, 1fr))",
+            "marginBottom": "1rem",
+          }
         }
-      }
-    />
+      />
+    </hgroup>
   </div>,
 ]
 `;

@@ -6,6 +6,6 @@ module.exports = {
   },
   automock: false,
   setupFiles: [
-    "src/setupJest.js"
+    "/workspaces/hands-on-react-2508422/src/setupTests.js"
   ],
 };
